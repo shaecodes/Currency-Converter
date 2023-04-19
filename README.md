@@ -8,7 +8,7 @@ Output displayed in a disabled text box
 Exit button to close the application
 
 # Prerequisites
-Python 3.x installed on your system
+Python 3.2 installed on your system
 Tkinter library installed (usually comes pre-installed with Python)
 
 # How to Run
