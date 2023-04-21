@@ -23,38 +23,37 @@ def exit():
 
 currency = tk.Tk()
 currency.geometry("900x600")
-currency.config(bg="#FFDEAD")
 currency.resizable(width=False,height=False)
 currency.title('Currency Converter')
 
-bigheader = tk.Label(currency,text="Currency Converter",font=("Arial", 15),fg="black",bg="#FFDEAD") #label 1
+bigheader = tk.Label(currency,text="Currency Converter",font=("Arial", 15),fg="black") #label 1
 
 #labels for JMD to USD conversion
-l1 = tk.Label(currency,text="JMD to USD Currency Converter",font=("Arial", 11),fg="black",bg="#FFDEAD") #label 1
-l2= tk.Label(currency,text="Enter currency in JMD: ",font=("Arial", 10,"bold"),fg="black",bg="#FFDEAD")#label 2
-l3= tk.Label(currency,text="Dollars in USD is $ : ",font=("Arial", 10,"bold"),fg="black",bg="#FFDEAD")#label 3
+l1 = tk.Label(currency,text="JMD to USD Currency Converter",font=("Arial", 11),fg="black") #label 1
+l2= tk.Label(currency,text="Enter currency in JMD: ",font=("Arial", 10,"bold"),fg="black")#label 2
+l3= tk.Label(currency,text="Dollars in USD is $ : ",font=("Arial", 10,"bold"),fg="black")#label 3
 
 #labels for USD to JMD conversion
-l1_1 = tk.Label(currency,text="USD to JMD Currency Converter",font=("Arial", 11),fg="black",bg="#FFDEAD") #label 1
-l2_2 = tk.Label(currency,text="Enter currency in USD: ",font=("Arial", 10,"bold"),fg="black",bg="#FFDEAD")#label 2
-l3_3= tk.Label(currency,text="Dollars in JMD is $ : ",font=("Arial", 10,"bold"),fg="black",bg="#FFDEAD")#label 3
+l1_1 = tk.Label(currency,text="USD to JMD Currency Converter",font=("Arial", 11),fg="black") #label 1
+l2_2 = tk.Label(currency,text="Enter currency in USD: ",font=("Arial", 10,"bold"),fg="black")#label 2
+l3_3= tk.Label(currency,text="Dollars in JMD is $ : ",font=("Arial", 10,"bold"),fg="black")#label 3
 
 
-emptybig = tk.Label(currency,bg="#FFDEAD") 
+emptybig = tk.Label(currency) 
 
 #empty labels/spaces for JMD to USD conversion
-empty_l1 = tk.Label(currency,bg="#FFDEAD") 
-empty_l2 = tk.Label(currency,bg="#FFDEAD")
-empty_l4 = tk.Label(currency,bg="#FFDEAD")
-empty_l5 = tk.Label(currency,bg="#FFDEAD")
+empty_l1 = tk.Label(currency) 
+empty_l2 = tk.Label(currency)
+empty_l4 = tk.Label(currency)
+empty_l5 = tk.Label(currency)
 #creates an empty space between elments. not necessary but makes the gui looker neater
 
 #empty labels/spaces for USD to JMD conversion
-empty_l1a = tk.Label(currency,bg="#FFDEAD") 
-empty_l2b = tk.Label(currency,bg="#FFDEAD")
-empty_l4c = tk.Label(currency,bg="#FFDEAD")
-empty_l5d = tk.Label(currency,bg="#FFDEAD")
-empty_l6e = tk.Label(currency,bg="#FFDEAD")
+empty_l1a = tk.Label(currency) 
+empty_l2b = tk.Label(currency)
+empty_l4c = tk.Label(currency)
+empty_l5d = tk.Label(currency)
+empty_l6e = tk.Label(currency)
 
 
 
